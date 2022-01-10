@@ -46,4 +46,12 @@ public class Task {
     public void setId(int id) {
         this.id = id;
     }
+
+    @Override
+    public String toString(){
+        return "ID" + id +
+                " "+ "Hours Spent" + hoursSpent +
+                " "+ "Hours Budget" + hoursBudget +
+                " "+ "Status" + status;
+    }
 }
