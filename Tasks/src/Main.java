@@ -18,7 +18,7 @@ public class Main {
     while(sc.hasNextLine()){
         String[] objektData = sc.NextLine().split("$");
 
-        if (objektData[4] instanceof Enum<Task.Status>){
+
         Task newTask = new Task(Integer.parseInt(objektData[0]), objektData[1],
                 Integer.parseInt(objektData[2]), Integer.parseInt(objektData[3]), objektData[4]);
 
